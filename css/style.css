@@ -1,0 +1,722 @@
+                  body {
+                      margin: 0px;
+                      padding: 0px;
+                      background-color: #ffffff;
+                      font-family: Arial, Helvetica, sans-serif;
+                  }
+                  
+                  .page {
+                      width: 100%;
+                      height: auto;
+                      margin: 0px auto;
+                      background-color: white;
+                      box-shadow: 1px 2px 15px #333;
+                  }
+                  
+                  .foto {
+                      width: 100%;
+                      height: 360px;
+                      position: relative;
+                      margin-top: -24px;
+                  }
+                  
+                  .foto #img {
+                      width: 100%;
+                      /* height: 350px; */
+                      position: relative;
+                  }
+                  
+                  .foto .title {
+                      position: absolute;
+                      top: 26%;
+                      color: white;
+                      left: 40%;
+                      font-family: "Trebuchet MS", sans-serif;
+                      font-size: 4em;
+                      letter-spacing: 1px;
+                      background-color: black;
+                      color: white;
+                  }
+                  
+                  .text-block {
+                      position: absolute;
+                      bottom: 121px;
+                      left: 150px;
+                      background-color: rgb(39, 39, 39);
+                      color: white;
+                      padding-left: 53px;
+                      padding-right: 32px;
+                      border: white solid 1px;
+                      width: 100px;
+                      font-size: 16px;
+                      text-decoration: none;
+                  }
+                  
+                  .text-block1 {
+                      position: absolute;
+                      bottom: 121px;
+                      left: 32%;
+                      background-color: rgb(39, 39, 39);
+                      color: white;
+                      padding-right: 0px;
+                      border: white solid 1px;
+                      width: 203px;
+                      font-size: 16px;
+                      text-decoration: none;
+                      padding-left: 41px;
+                  }
+                  
+                  .text-block2 {
+                      position: absolute;
+                      bottom: 121px;
+                      left: 56%;
+                      background-color: rgb(39, 39, 39);
+                      color: white;
+                      padding-right: 0px;
+                      border: white solid 1px;
+                      width: 203px;
+                      font-size: 16px;
+                      text-decoration: none;
+                      padding-left: 41px;
+                  }
+                  
+                  .text-block3 {
+                      position: absolute;
+                      display: inline;
+                      bottom: 121px;
+                      left: 81%;
+                      background-color: rgb(39, 39, 39);
+                      color: white;
+                      padding-left: 59px;
+                      padding-right: 32px;
+                      border: white solid 1px;
+                      width: 100px;
+                      font-size: 16px;
+                      text-decoration: none;
+                  }
+                  
+                  .text-block,
+                  .text-block1,
+                  .text-block2,
+                  .text-block3,
+                  .lajme {
+                      color: azure;
+                      text-decoration: none;
+                  }
+                  
+                  .foto h4:hover {
+                      text-decoration: underline;
+                  }
+                  
+                  .footer {
+                      width: 100%;
+                      height: 150px;
+                      margin: 0px auto;
+                      margin-top: 0px;
+                      box-shadow: 1px 2px 15px #333;
+                      background-color: rgb(29, 29, 29);
+                  }
+                  
+                  .footer p {
+                      padding-top: 40px;
+                      text-align: center;
+                      font-size: 19px;
+                      color: rgb(255, 255, 255);
+                  }
+                  
+                  .footer ul li {
+                      display: inline;
+                      padding-top: 10px;
+                      float: right;
+                      padding-right: 40px;
+                  }
+                  
+                  .login-page {
+                      width: 100%;
+                      height: 50%;
+                      margin-left: 0px;
+                      position: relative;
+                  }
+                  
+                  .login-page .login #img1 {
+                      width: 100%;
+                      height: 50%;
+                      position: relative;
+                  }
+                  
+                  .login-page .login {
+                      position: absolute;
+                      left: 36%;
+                      top: 21%;
+                      width: 416px;
+                      height: 300px;
+                      border: 2px solid rgb(0, 0, 0);
+                      padding: 40px;
+                      background-color: rgb(255, 255, 255);
+                      box-shadow: 10px 10px 15px rgb(0, 0, 0);
+                  }
+                  
+                  .login-form {
+                      width: 100%;
+                      height: 254px;
+                  }
+                  
+                  .login input[type="text"],
+                  input[type="password"] {
+                      width: 100%;
+                      height: 40px;
+                      background-color: rgb(255, 255, 255);
+                      color: rgb(0, 0, 0);
+                  }
+                  
+                  .login input[type="text"] {
+                      margin-top: 20px;
+                  }
+                  
+                  .login input[type="password"] {
+                      margin-top: 40px;
+                      color: rgb(0, 0, 0);
+                  }
+                  
+                  .login ::placeholder {
+                      color: rgb(0, 0, 0);
+                      font-size: 1.3em;
+                      padding-left: 10px;
+                  }
+                  
+                  .login input[type="submit"] {
+                      position: relative;
+                      left: 20%;
+                      width: 61%;
+                      top: 5%;
+                      height: 30px;
+                      color: #f9f8f6;
+                      background-color: rgb(66, 66, 66);
+                  }
+                  
+                  .list {
+                      width: 80%;
+                      height: 579px;
+                      margin-left: 195px;
+                      display: relative;
+                      /* border-top: 7px solid black; */
+                      /* border-bottom: 7px solid black; */
+                  }
+                  
+                  .list h2 {
+                      font-family: Helvetica, Arial, sans-serif;
+                      font-size: 20px;
+                      line-height: 4px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                      letter-spacing: 0.1em;
+                      width: 100%;
+                      text-align: center;
+                      padding: 15px 0 29px 0;
+                      display: block;
+                  }
+                  
+                  .list .list-content {
+                      width: 100%;
+                      height: 500px;
+                      color: black;
+                  }
+                  
+                  .content1,
+                  .content2,
+                  .content3,
+                  .content4,
+                  .content5,
+                  .content6 {
+                      float: left;
+                      margin-left: 13px;
+                  }
+                  
+                  .content1,
+                  .content2,
+                  .content3,
+                  .content4,
+                  .content5,
+                  .content6 p {
+                      width: 240px;
+                      font-family: Helvetica, Arial, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: black;
+                  }
+                  
+                  .list .list-content p:hover {
+                      text-decoration: underline;
+                  }
+                  
+                  .writers {
+                      width: 80%;
+                      height: 700px;
+                      margin-left: 195px;
+                      display: relative;
+                      /* border-bottom: 7px solid black; */
+                  }
+                  
+                  .writers h2 {
+                      font-family: Helvetica, Arial, sans-serif;
+                      font-size: 20px;
+                      line-height: 4px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                      letter-spacing: 0.1em;
+                      width: 100%;
+                      text-align: center;
+                      padding: 15px 0 29px 0;
+                      display: block;
+                  }
+                  
+                  .rcontent {
+                      width: 46%;
+                      height: 80%;
+                      float: right;
+                  }
+                  
+                  .rcontent img {
+                      float: left;
+                      width: 293px;
+                  }
+                  
+                  .rcontent1 {
+                      float: right;
+                      width: 400px;
+                      height: 125px;
+                  }
+                  
+                  .rcontent1 h2 {
+                      color: red;
+                      padding-top: 0px;
+                      text-align: left;
+                      padding-left: 66px;
+                      font-family: "Calibre", Helvetica, Arial, sans-serif;
+                      font-size: 18px;
+                      font-weight: 600;
+                      letter-spacing: 0.05em;
+                      margin: 20px 0 5px 0;
+                  }
+                  
+                  .rcontent h1 {
+                      text-align: left;
+                      padding-left: 66px;
+                      font-size: 42px;
+                      font-weight: 500;
+                      margin-top: 10px;
+                  }
+                  
+                  .rcontent2 {
+                      float: right;
+                      width: 333px;
+                      height: 320px;
+                  }
+                  
+                  .rcontent2 p {
+                      font-size: 18px;
+                      margin-right: 20px;
+                  }
+                  
+                  .rcontent2 a {
+                      color: red;
+                      text-decoration: none;
+                  }
+                  
+                  .rcontent2 a:hover {
+                      text-decoration: underline;
+                  }
+                  
+                  .lcontent {
+                      float: left;
+                      width: 54%;
+                      height: 80%;
+                  }
+                  
+                  .lcontent1 {
+                      float: left;
+                      padding: 40px;
+                      padding-left: 72px;
+                      padding-top: 1px;
+                  }
+                  
+                  .lcontent1 img {
+                      width: 278px;
+                      height: 207px;
+                  }
+                  
+                  .lcontent1 h3 {
+                      margin-top: 5px;
+                      margin-bottom: -3px;
+                      font-size: 24px;
+                  }
+                  
+                  .lcontent1 b {
+                      color: rgb(0, 0, 0);
+                      text-decoration: none;
+                      font-weight: 500;
+                      font-family: Helvetica, Arial, sans-serif;
+                  }
+                  
+                  .lcontent1 a {
+                      color: red;
+                      text-decoration: none;
+                  }
+                  
+                  .lcontent1 a:hover {
+                      color: rgb(0, 0, 0);
+                      text-decoration: underline;
+                  }
+                  
+                  .topic {
+                      width: 80%;
+                      height: 300px;
+                      margin-left: 195px;
+                      /* border-bottom: 7px solid black; */
+                  }
+                  
+                  .topic h2 {
+                      font-family: Helvetica, Arial, sans-serif;
+                      font-size: 20px;
+                      line-height: 4px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                      letter-spacing: 0.1em;
+                      width: 100%;
+                      text-align: center;
+                      padding: 15px 0 29px 0;
+                      display: block;
+                  }
+                  
+                  .topic p {
+                      display: inline-block;
+                      margin: 20px -4px 19px -4px;
+                      padding: 0 24px;
+                      letter-spacing: -0.01em;
+                      width: 80%;
+                      height: 700px;
+                      margin-left: 195px;
+                      display: relative;
+                      border-bottom: 7px solid black;
+                      font-size: 28px;
+                      font-weight: 500;
+                      text-align: center;
+                  }
+                  
+                  .topic1 {
+                      width: 100%;
+                      height: 30%;
+                      margin-top: 31px;
+                  }
+                  
+                  .topic1 h1 {
+                      padding: 20px;
+                      font-size: 30px;
+                      line-height: 37px;
+                      font-weight: 500;
+                      position: relative;
+                      display: inline-block;
+                      margin-left: 134px;
+                      padding-left: 5px;
+                  }
+                  
+                  .topic1 a {
+                      text-decoration: none;
+                      color: black;
+                      border-left: 2px solid black;
+                      display: inline-block;
+                      margin: 20px -4px 19px -4px;
+                      padding: 0 24px;
+                      letter-spacing: -0.01em;
+                      margin: 7px 0;
+                      padding: 0 8px 0 13px;
+                      line-height: 39px;
+                      position: relative;
+                      border-left: 1px solid #000;
+                      border-right: 1px solid #000;
+                  }
+                  
+                  .topic1 a:hover {
+                      color: red;
+                  }
+                  
+                  .register-page {
+                      width: 100%;
+                      height: 100%;
+                      margin-left: 0px;
+                      position: relative;
+                  }
+                  
+                  .register-page .register #img1 {
+                      width: 100%;
+                      height: 100%;
+                      position: relative;
+                  }
+                  
+                  .register-page .register {
+                      width: 400px;
+                      position: absolute;
+                      margin-left: 710px;
+                      top: 10%;
+                      border: 2px solid rgb(0, 0, 0);
+                      border-radius: 5px;
+                      padding: 40px;
+                      background-color: rgb(255, 255, 255);
+                      box-shadow: 10px 10px 15px #333;
+                  }
+                  
+                  .register input[type="email"],
+                  .register input[type="password"],
+                  .register input[type="text"],
+                  .register input[type="email"],
+                  .register select,
+                  .register input[type="date"],
+                  .register textarea,
+                  .register input[type="submit"] {
+                      padding: 5px;
+                      height: 35px;
+                      width: 78%;
+                      border-radius: 5px;
+                      padding-left: 5px;
+                      border: 1px solid rgb(0, 0, 0);
+                      margin: 3px;
+                  }
+                  
+                  .register p,
+                  h2 {
+                      font-family: Georgia, 'Times New Roman', Times, serif;
+                      color: white;
+                      font-size: 20px;
+                  }
+                  
+                  .register-form input[type="password"] {
+                      background-color: white;
+                  }
+                  
+                  .register-form input[type="submit"] {
+                      position: relative;
+                      left: 25%;
+                      width: 50%;
+                      margin-top: 35px;
+                      color: #f9f8f6;
+                      background-color: #333;
+                      margin-left: -42px;
+                  }
+                  
+                  .register .register-form {
+                      margin-left: 1px;
+                      margin-right: -90px;
+                  }
+                  
+                  .contact-page {
+                      width: 49%;
+                      height: 185px;
+                      float: right;
+                      margin-top: -280px;
+                  }
+                  
+                  .contact-page table {
+                      width: 400px;
+                      height: 200px;
+                      font-size: 18px;
+                  }
+                  
+                  .contact table {
+                      border-collapse: collapse;
+                  }
+                  
+                  .contact th,
+                  td {
+                      text-align: left;
+                      padding: 8px;
+                  }
+                  
+                  .contact tr:nth-child(even) {
+                      background-color: #c1d7d7
+                  }
+                  
+                  .contact th {
+                      background-color: #000000;
+                      color: white;
+                  }
+                  
+                  .about1 {
+                      width: 100%;
+                      height: 230px;
+                      text-align: center;
+                      background-color: rgb(51, 77, 77);
+                      margin-top: -24px;
+                      color: white;
+                  }
+                  
+                  .about2 {
+                      width: 100%;
+                      height: auto;
+                      text-align: center;
+                      background-color: rgb(117, 163, 163);
+                      /* margin-top: -16px; */
+                      font-family: "Times New Roman", Times, serif;
+                      font-size: 18px;
+                  }
+                  
+                  .staf {
+                      position: relative;
+                      width: 70%;
+                      height: 230px;
+                      left: 21%;
+                  }
+                  
+                  .about3 {
+                      width: 25%;
+                      float: left;
+                  }
+                  
+                  .about4 {
+                      float: left;
+                      margin-left: 0px;
+                      margin-top: 18px;
+                      border-top: 1px solid black;
+                      border-bottom: 1px solid black;
+                  }
+                  
+                  .librat-page {
+                      width: 100%;
+                      height: 900px;
+                      position: relative;
+                  }
+                  
+                  .librat-page #img {
+                      position: relative;
+                  }
+                  
+                  .librat {
+                      position: absolute;
+                      margin-top: -706px;
+                      border: 1px solid gray;
+                      width: 77%;
+                      height: 600px;
+                      margin-left: 219px;
+                  }
+                  
+                  .librat th,
+                  td {
+                      font-size: 20px;
+                      text-align: left;
+                      padding: 8px;
+                      border: 1px solid black;
+                  }
+                  
+                  .librat tr:nth-child(even) {
+                      background-color: #457a5d;
+                      color: rgb(255, 255, 255);
+                  }
+                  
+                  .librat tr:nth-child(odd) {
+                      background-color: #ffffff;
+                      color: black;
+                  }
+                  
+                  .librat th {
+                      background-color: #457a5d;
+                      color: white;
+                  }
+                  
+                  .shtoliber {
+                      position: relative;
+                      top: -73%;
+                      margin-top: 27px;
+                      left: 57%;
+                      padding-left: 10px;
+                  }
+                  
+                  .shtoliber1 {
+                      position: relative;
+                      top: -73%;
+                      margin-top: -21px;
+                      left: 44%;
+                      padding-left: 10px;
+                  }
+                  
+                  .shtoliber2 {
+                      position: relative;
+                      top: -73%;
+                      margin-top: -20px;
+                      left: 33%;
+                      padding-left: 10px;
+                  }
+                  
+                  .titull {
+                      position: absolute;
+                      top: 13%;
+                      left: 40%;
+                      font-family: "Trebuchet MS", sans-serif;
+                      font-size: 20px;
+                      letter-spacing: 7px;
+                      background-color: #457a5d;
+                      color: white;
+                  }
+                  
+                  .titull p {
+                      font-size: 22px;
+                  }
+                  
+                  .seemore {
+                      position: absolute;
+                      top: 90%;
+                      right: 12%;
+                      color: #000000;
+                      font-size: 18px;
+                  }
+                  
+                  .titull1 {
+                      left: 45%;
+                      position: absolute;
+                      top: 13%;
+                      font-family: "Trebuchet MS", sans-serif;
+                      font-size: 20px;
+                      letter-spacing: 7px;
+                      background-color: #0d1e35;
+                      color: white;
+                  }
+                  
+                  .librat-page1 {
+                      width: 100%;
+                      height: 900px;
+                      position: relative;
+                  }
+                  
+                  .librat-page1 #img {
+                      position: relative;
+                  }
+                  
+                  .librat1 {
+                      position: absolute;
+                      margin-top: -706px;
+                      border: 1px solid gray;
+                      width: 77%;
+                      height: 600px;
+                      margin-left: 219px;
+                  }
+                  
+                  .librat1 th,
+                  td {
+                      font-size: 20px;
+                      text-align: left;
+                      padding: 8px;
+                      border: 1px solid black;
+                  }
+                  
+                  .librat1 tr:nth-child(even) {
+                      background-color: #122a4d;
+                      color: rgb(255, 255, 255);
+                  }
+                  
+                  .librat1 tr:nth-child(odd) {
+                      background-color: #ffffff;
+                      color: black;
+                  }
+                  
+                  .librat1 th {
+                      background-color: #0d1e35;
+                      color: white;
+                  }
